@@ -1,0 +1,7 @@
+{
+	"name": "guardian"
+	"version": "0.0.0"
+	"dependencies": [
+		"openssl"
+	]
+}
