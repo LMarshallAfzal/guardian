@@ -15,7 +15,11 @@ Set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(OpenSSL REQUIRED)
 
 # Create executable
-add_executable(Guardian src/main.cpp)
+add_executable(Guardian 
+	src/main.cpp
+	src/ArgumentParser.cpp
+	src/file_handler.cpp
+)
 
 # Link libraries
 target_link_libraries(Guardian
